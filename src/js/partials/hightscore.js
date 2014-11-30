@@ -1,6 +1,5 @@
 
 var storedHiScore = localStorage.getItem('hiscore');
-console.log(storedHiScore);
 
 function setHightScore() {
 	console.log('in func: ' + storedHiScore);
@@ -8,17 +7,20 @@ function setHightScore() {
 	if(!storedHiScore) {
 		localStorage.setItem('hiscore', score);
 		console.log('new record (there was none before)');
+		printHighScore( score );
 	}
 	
 	if ( score > storedHiScore ) {
 		localStorage.setItem('hiscore', score);
 		console.log('new record');
+		printHighScore( score );
 	} else {
 		console.log('No record beat');
+		printHighScore( storedHiScore );
 	}		
-	printHighScore();
+	
 }
 
-function printHighScore() {
-	$('.hiscore').html( storedHiScore );
+function printHighScore( scored ) {
+	$('.hiscore').html( scored );
 }
