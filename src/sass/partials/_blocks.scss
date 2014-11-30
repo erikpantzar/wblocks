@@ -1,0 +1,17 @@
+
+.block {
+	width: $block-width;
+	height: $block-height;
+	display: inline-block;
+	background: $color-base;
+	float: left;
+}
+
+.block.correct {
+	background: invert($color-base);
+}
+
+
+.block.done {
+	background: lighten( invert($color-base), 50%);
+}

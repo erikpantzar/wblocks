@@ -1,7 +1,7 @@
 {
   "version": 3,
   "file": "..\/..\/static\/css\/site.css",
-  "sources": ["main.scss","partials\/_vars.scss","partials\/_game.scss"],
+  "sources": ["main.scss","partials\/_vars.scss","partials\/_game.scss","partials\/_blocks.scss"],
   "names": [],
-  "mappings": ";AEIA;EACC,SAAS;;;AAGV;EACC,WAAW;EACX,OAAO;EACP,WAAW;EACX,QAAQ;EAER,YAAY;EACZ,QAAQ;EACR,UAAU;EACV,QAAQ;EAER,UAAU;;;AAGX;EACC,OAtBa;EAuBb,QAxBc;EAyBd,SAAS;EACT,YD1BY;EC2BZ,OAAO;;;AAGR,MAAM;EACL,YAAY;;;AAGb;EACC,YAAY;EACZ,OAAO;EACP,QArCc;EAsCd,SAAS;EACT,OAAO;;;AAGR,KAAK,SAAS;EACb,YAAY"
+  "mappings": ";AECA;EACC,SAAS;;;AAGV;EACC,WAAW;EACX,OAAO;EACP,WAAW;EACX,QAAQ;EAER,YAAY;EACZ,QAAQ;EACR,UAAU;EACV,QAAQ;EAER,UAAU;;;AAIX;EACC,YAAY;EACZ,OAAO;EACP,QDpBc;ECqBd,SAAS;EACT,OAAO;;;AAGR,KAAK,SAAS;EACb,YAAY;;;AC5Bb;EACC,OFEa;EEDb,QFAc;EECd,SAAS;EACT,YFLY;EEMZ,OAAO;;;AAGR,MAAM;EACL,YAAY;;;AAIb,MAAM;EACL,YAAY"
 }

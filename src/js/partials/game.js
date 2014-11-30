@@ -2,12 +2,10 @@
 "use strict";
 
 	var score = 0;
-	var stepIndex = 0;
 	var time = 0;
 	var stepIndex = document.querySelectorAll('.step').length;
 
 	var block = {
-
 		default: function () {
 			return "<div class='block'></div>";
 		},
@@ -25,10 +23,6 @@
 		return "<div class='step' data-index='" + stepIndex +  "'>" + stepOrdered() + "</div>";
 	};
 	
-	
-	var stepInit = function () {
-		
-	};
 	
 	var stepOrdered = function() {
 		// roll dice  ( 1-4)
@@ -67,12 +61,13 @@
 	};
 	
 	$('.game').on('click', function(el, i) {
-		console.log( $(el)[0].target );
+		//console.log( $(el)[0].target );
 		
 		
 		if ( $(el)[0].target.classList.contains('correct')) {
-			console.log('stepup');
 			stepUp();
+			$($(el)[0].target).addClass('done')
+				.removeClass('correct');
 		} else {
 			console.log('failed game');
 		}
