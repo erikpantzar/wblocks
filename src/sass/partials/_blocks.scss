@@ -5,6 +5,7 @@
 	display: inline-block;
 	background: $color-base;
 	float: left;
+	border-radius: 3px;
 }
 
 .block.correct {
@@ -12,6 +13,12 @@
 }
 
 
-.block.done {
+.block.clicked {
+	background: red;
+}
+
+.block.correct.clicked {
 	background: lighten( invert($color-base), 50%);
 }
+
+

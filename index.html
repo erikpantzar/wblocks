@@ -9,11 +9,10 @@
 <body>
 	
 	<div class="game">
-		<div class="score"></div>
-		<div class="timer"></div>
+		<div class="score scored"></div>
+		<div class="timer timed">11000</div>
 		
 		<div class="blocks-container" id="game">
-		
 			<div class="step initial">
 				<div class="block inital"></div>
 				<div class="block inital"></div>
@@ -23,10 +22,12 @@
 		</div>
 	</div>
 	
-	
 	<div class="failed hidden">
 		<h2>Failed game</h2>
-		<p>Your score is: **score**</p>
+		<p>Your score is: <span class="scored"></span></p>
+		<p>Time left: <span class="timed"></span></p>
+		<p>Your stored hiscore: <span class="hiscore"></span></p>
+		<a class="button" onClick="window.location.href = window.location.href">Restart</a>
 	</div>
 	
 	
