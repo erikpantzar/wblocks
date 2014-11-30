@@ -5,11 +5,14 @@
 	display: inline-block;
 	background: $color-base;
 	float: left;
-	border-radius: 3px;
 }
 
 .block.correct {
 	background: invert($color-base);
+	border-radius: 3px;
+	box-shadow: 0 -2px 23px 1px #666;
+	position: relative;
+	z-index: 10;
 }
 
 

@@ -1,6 +1,13 @@
 @import "partials/vars";
+
+
+//web stuff
+@import "partials/typo";
+@import "partials/base";
+@import "partials/buttons";
+
+// game stuff
 @import "partials/game";
 @import "partials/blocks";
-
 @import "partials/timer";
 @import "partials/score";

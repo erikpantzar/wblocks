@@ -1,0 +1,27 @@
+
+
+.button {
+	display: block;
+	width: 80%;
+	text-align: center;
+	
+	background: yellow;
+	color: invert(yellow);
+	font-size: 18px;
+	line-height: 24px;
+	height: 24px;
+	
+	margin: 10px auto;
+	clear: both;
+}
+
+
+.button-restart {
+	background: red;
+	color: invert(red);
+	position: absolute;
+	bottom: 20px;
+	left: 10%;
+	right: 10%;
+	width: 80%;
+}
